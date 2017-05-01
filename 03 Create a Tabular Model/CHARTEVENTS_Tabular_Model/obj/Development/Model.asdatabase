@@ -1,0 +1,690 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1200,
+  "model": {
+    "culture": "en-US",
+    "dataSources": [
+      {
+        "name": "SqlServer localhost MIMIC3",
+        "connectionString": "Provider=SQLNCLI11;Data Source=localhost;Initial Catalog=MIMIC3;Integrated Security=SSPI;Persist Security Info=false",
+        "impersonationMode": "impersonateAccount",
+        "account": "iamcaesar",
+        "annotations": [
+          {
+            "name": "ConnectionEditUISource",
+            "value": "SqlServer"
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "name": "ADMISSIONS",
+        "columns": [
+          {
+            "name": "ROW_ID",
+            "dataType": "int64",
+            "isHidden": true,
+            "sourceColumn": "ROW_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "SUBJECT_ID",
+            "dataType": "int64",
+            "isHidden": true,
+            "sourceColumn": "SUBJECT_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "HADM_ID",
+            "dataType": "int64",
+            "isHidden": true,
+            "sourceColumn": "HADM_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "ADMITTIME",
+            "dataType": "dateTime",
+            "sourceColumn": "ADMITTIME",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "DISCHTIME",
+            "dataType": "dateTime",
+            "sourceColumn": "DISCHTIME",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "DEATHTIME",
+            "dataType": "dateTime",
+            "sourceColumn": "DEATHTIME",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "ADMISSION_TYPE",
+            "dataType": "string",
+            "sourceColumn": "ADMISSION_TYPE",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "ADMISSION_LOCATION",
+            "dataType": "string",
+            "sourceColumn": "ADMISSION_LOCATION",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "DISCHARGE_LOCATION",
+            "dataType": "string",
+            "sourceColumn": "DISCHARGE_LOCATION",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "INSURANCE",
+            "dataType": "string",
+            "sourceColumn": "INSURANCE",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "LANGUAGE",
+            "dataType": "string",
+            "sourceColumn": "LANGUAGE",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "RELIGION",
+            "dataType": "string",
+            "sourceColumn": "RELIGION",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "MARITAL_STATUS",
+            "dataType": "string",
+            "sourceColumn": "MARITAL_STATUS",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "ETHNICITY",
+            "dataType": "string",
+            "sourceColumn": "ETHNICITY",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "EDREGTIME",
+            "dataType": "dateTime",
+            "sourceColumn": "EDREGTIME",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "EDOUTTIME",
+            "dataType": "dateTime",
+            "sourceColumn": "EDOUTTIME",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "DIAGNOSIS",
+            "dataType": "string",
+            "sourceColumn": "DIAGNOSIS",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "HOSPITAL_EXPIRE_FLAG",
+            "dataType": "int64",
+            "sourceColumn": "HOSPITAL_EXPIRE_FLAG",
+            "sourceProviderType": "UnsignedTinyInt"
+          },
+          {
+            "name": "HAS_CHARTEVENTS_DATA",
+            "dataType": "int64",
+            "sourceColumn": "HAS_CHARTEVENTS_DATA",
+            "sourceProviderType": "UnsignedTinyInt"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "ADMISSIONS",
+            "dataView": "full",
+            "source": {
+              "query": " SELECT [dbo].[ADMISSIONS].* FROM [dbo].[ADMISSIONS] ",
+              "dataSource": "SqlServer localhost MIMIC3"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[ADMISSIONS].* FROM [dbo].[ADMISSIONS] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "ADMISSIONS"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "CAREGIVERS",
+        "columns": [
+          {
+            "name": "ROW_ID",
+            "dataType": "int64",
+            "isHidden": true,
+            "sourceColumn": "ROW_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Caregiver ID",
+            "dataType": "int64",
+            "sourceColumn": "CGID",
+            "sourceProviderType": "SmallInt"
+          },
+          {
+            "name": "Caregiver Type",
+            "dataType": "string",
+            "sourceColumn": "LABEL",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "Caregiver Description",
+            "dataType": "string",
+            "sourceColumn": "DESCRIPTION",
+            "sourceProviderType": "Char"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "CAREGIVERS",
+            "dataView": "full",
+            "source": {
+              "query": " SELECT [dbo].[CAREGIVERS].* FROM [dbo].[CAREGIVERS] ",
+              "dataSource": "SqlServer localhost MIMIC3"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[CAREGIVERS].* FROM [dbo].[CAREGIVERS] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "CAREGIVERS"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "D_ITEMS",
+        "columns": [
+          {
+            "name": "ROW_ID",
+            "dataType": "int64",
+            "isHidden": true,
+            "sourceColumn": "ROW_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "ITEMID",
+            "dataType": "int64",
+            "sourceColumn": "ITEMID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "LABEL",
+            "dataType": "string",
+            "sourceColumn": "LABEL",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "ABBREVIATION",
+            "dataType": "string",
+            "sourceColumn": "ABBREVIATION",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "DBSOURCE",
+            "dataType": "string",
+            "sourceColumn": "DBSOURCE",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "LINKSTO",
+            "dataType": "string",
+            "sourceColumn": "LINKSTO",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "CATEGORY",
+            "dataType": "string",
+            "sourceColumn": "CATEGORY",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "UNITNAME",
+            "dataType": "string",
+            "sourceColumn": "UNITNAME",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "PARAM_TYPE",
+            "dataType": "string",
+            "sourceColumn": "PARAM_TYPE",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "CONCEPTID",
+            "dataType": "string",
+            "sourceColumn": "CONCEPTID",
+            "sourceProviderType": "Char"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "D_ITEMS",
+            "dataView": "full",
+            "source": {
+              "query": " SELECT [dbo].[D_ITEMS].* FROM [dbo].[D_ITEMS] ",
+              "dataSource": "SqlServer localhost MIMIC3"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[D_ITEMS].* FROM [dbo].[D_ITEMS] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "D_ITEMS"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "ICUSTAYS",
+        "columns": [
+          {
+            "name": "ROW_ID",
+            "dataType": "int64",
+            "isHidden": true,
+            "sourceColumn": "ROW_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "SUBJECT_ID",
+            "dataType": "int64",
+            "isHidden": true,
+            "sourceColumn": "SUBJECT_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "HADM_ID",
+            "dataType": "int64",
+            "isHidden": true,
+            "sourceColumn": "HADM_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "ICUSTAY_ID",
+            "dataType": "int64",
+            "isHidden": true,
+            "sourceColumn": "ICUSTAY_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "DBSOURCE",
+            "dataType": "string",
+            "sourceColumn": "DBSOURCE",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "FIRST_CAREUNIT",
+            "dataType": "string",
+            "sourceColumn": "FIRST_CAREUNIT",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "LAST_CAREUNIT",
+            "dataType": "string",
+            "sourceColumn": "LAST_CAREUNIT",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "FIRST_WARDID",
+            "dataType": "int64",
+            "sourceColumn": "FIRST_WARDID",
+            "sourceProviderType": "UnsignedTinyInt"
+          },
+          {
+            "name": "LAST_WARDID",
+            "dataType": "int64",
+            "sourceColumn": "LAST_WARDID",
+            "sourceProviderType": "UnsignedTinyInt"
+          },
+          {
+            "name": "INTIME",
+            "dataType": "dateTime",
+            "sourceColumn": "INTIME",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "OUTTIME",
+            "dataType": "dateTime",
+            "sourceColumn": "OUTTIME",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "LOS",
+            "dataType": "double",
+            "sourceColumn": "LOS",
+            "sourceProviderType": "Double"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "ICUSTAYS",
+            "dataView": "full",
+            "source": {
+              "query": " SELECT [dbo].[ICUSTAYS].* FROM [dbo].[ICUSTAYS] ",
+              "dataSource": "SqlServer localhost MIMIC3"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[ICUSTAYS].* FROM [dbo].[ICUSTAYS] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "ICUSTAYS"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "PATIENTS",
+        "columns": [
+          {
+            "name": "ROW_ID",
+            "dataType": "int64",
+            "isHidden": true,
+            "sourceColumn": "ROW_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Patient ID",
+            "dataType": "int64",
+            "sourceColumn": "SUBJECT_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Gender",
+            "dataType": "string",
+            "sourceColumn": "GENDER",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "Data of Birth",
+            "dataType": "dateTime",
+            "sourceColumn": "DOB",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "DOD",
+            "dataType": "dateTime",
+            "sourceColumn": "DOD",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "DOD_HOSP",
+            "dataType": "dateTime",
+            "sourceColumn": "DOD_HOSP",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "DOD_SSN",
+            "dataType": "dateTime",
+            "sourceColumn": "DOD_SSN",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "EXPIRE_FLAG",
+            "dataType": "int64",
+            "sourceColumn": "EXPIRE_FLAG",
+            "sourceProviderType": "UnsignedTinyInt"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "PATIENTS",
+            "dataView": "full",
+            "source": {
+              "query": " SELECT [dbo].[PATIENTS].* FROM [dbo].[PATIENTS] ",
+              "dataSource": "SqlServer localhost MIMIC3"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[PATIENTS].* FROM [dbo].[PATIENTS] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "PATIENTS"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "vwCHARTEVENTS",
+        "columns": [
+          {
+            "name": "ROW_ID",
+            "dataType": "int64",
+            "sourceColumn": "ROW_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "SUBJECT_ID",
+            "dataType": "int64",
+            "sourceColumn": "SUBJECT_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "HADM_ID",
+            "dataType": "int64",
+            "sourceColumn": "HADM_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "ICUSTAY_ID",
+            "dataType": "int64",
+            "sourceColumn": "ICUSTAY_ID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "ITEMID",
+            "dataType": "int64",
+            "sourceColumn": "ITEMID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "CHARTTIME",
+            "dataType": "dateTime",
+            "sourceColumn": "CHARTTIME",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "STORETIME",
+            "dataType": "dateTime",
+            "sourceColumn": "STORETIME",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "CGID",
+            "dataType": "int64",
+            "sourceColumn": "CGID",
+            "sourceProviderType": "SmallInt"
+          },
+          {
+            "name": "VALUE",
+            "dataType": "string",
+            "sourceColumn": "VALUE",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "VALUENUM",
+            "dataType": "double",
+            "sourceColumn": "VALUENUM",
+            "sourceProviderType": "Double"
+          },
+          {
+            "name": "VALUEUOM",
+            "dataType": "string",
+            "sourceColumn": "VALUEUOM",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "WARNING",
+            "dataType": "int64",
+            "sourceColumn": "WARNING",
+            "sourceProviderType": "UnsignedTinyInt"
+          },
+          {
+            "name": "ERROR",
+            "dataType": "int64",
+            "sourceColumn": "ERROR",
+            "sourceProviderType": "UnsignedTinyInt"
+          },
+          {
+            "name": "RESULTSTATUS",
+            "dataType": "string",
+            "sourceColumn": "RESULTSTATUS",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "STOPPED",
+            "dataType": "string",
+            "sourceColumn": "STOPPED",
+            "sourceProviderType": "Char"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "vwCHARTEVENTS",
+            "dataView": "full",
+            "source": {
+              "query": " SELECT [dbo].[vwCHARTEVENTS].* FROM [dbo].[vwCHARTEVENTS] ",
+              "dataSource": "SqlServer localhost MIMIC3"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Number of Patients",
+            "expression": "distinctcount(vwCHARTEVENTS[SUBJECT_ID])"
+          },
+          {
+            "name": "Number of Hospital Admissions",
+            "expression": "distinctcount(vwCHARTEVENTS[HADM_ID])"
+          },
+          {
+            "name": "Number of ICU Stays",
+            "expression": "distinctcount(vwCHARTEVENTS[ICUSTAY_ID])"
+          },
+          {
+            "name": "Number of Caregivers",
+            "expression": "distinctcount(vwCHARTEVENTS[CGID])"
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[vwCHARTEVENTS].* FROM [dbo].[vwCHARTEVENTS] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "vwCHARTEVENTS"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "09cc9ac2-8b45-42ee-8a46-00706c5e1ef7",
+        "fromTable": "vwCHARTEVENTS",
+        "fromColumn": "ITEMID",
+        "toTable": "D_ITEMS",
+        "toColumn": "ITEMID"
+      },
+      {
+        "name": "054be439-e35e-4679-a362-8d7b9445c7bb",
+        "fromTable": "vwCHARTEVENTS",
+        "fromColumn": "CGID",
+        "toTable": "CAREGIVERS",
+        "toColumn": "Caregiver ID"
+      },
+      {
+        "name": "f55b2b55-ee51-4d87-bad3-403d9c3686e6",
+        "fromTable": "vwCHARTEVENTS",
+        "fromColumn": "ICUSTAY_ID",
+        "toTable": "ICUSTAYS",
+        "toColumn": "ICUSTAY_ID"
+      },
+      {
+        "name": "6842e7a2-9ae3-4367-b09a-4e5f946c170c",
+        "fromTable": "vwCHARTEVENTS",
+        "fromColumn": "HADM_ID",
+        "toTable": "ADMISSIONS",
+        "toColumn": "HADM_ID"
+      },
+      {
+        "name": "1ea47856-7de7-4afe-8ad2-86dbcde83567",
+        "fromTable": "vwCHARTEVENTS",
+        "fromColumn": "SUBJECT_ID",
+        "toTable": "PATIENTS",
+        "toColumn": "Patient ID"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "ClientCompatibilityLevel",
+        "value": "400"
+      }
+    ]
+  },
+  "id": "SemanticModel"
+}

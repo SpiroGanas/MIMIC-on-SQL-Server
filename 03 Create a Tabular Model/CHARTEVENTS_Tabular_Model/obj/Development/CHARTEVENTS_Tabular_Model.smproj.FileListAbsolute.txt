@@ -1,0 +1,6 @@
+C:\Spiros_Junk\MIMIC-on-SQL-Server\03 Create a Tabular Model\CHARTEVENTS_Tabular_Model\bin\Model.asdatabase
+C:\Spiros_Junk\MIMIC-on-SQL-Server\03 Create a Tabular Model\CHARTEVENTS_Tabular_Model\bin\Model.deploymenttargets
+C:\Spiros_Junk\MIMIC-on-SQL-Server\03 Create a Tabular Model\CHARTEVENTS_Tabular_Model\bin\Model.deploymentoptions
+C:\Spiros_Junk\MIMIC-on-SQL-Server\03 Create a Tabular Model\CHARTEVENTS_Tabular_Model\obj\Development\Model.asdatabase
+C:\Spiros_Junk\MIMIC-on-SQL-Server\03 Create a Tabular Model\CHARTEVENTS_Tabular_Model\obj\Development\Model.deploymentoptions
+C:\Spiros_Junk\MIMIC-on-SQL-Server\03 Create a Tabular Model\CHARTEVENTS_Tabular_Model\obj\Development\Model.deploymenttargets
