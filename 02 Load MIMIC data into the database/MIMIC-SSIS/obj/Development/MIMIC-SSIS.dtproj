@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">EC2AMAZ-1C3LPP0</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVS6O9kA9JEu40PrG50XQfAAAAAACAAAAAAAQZgAAAAEAACAAAABEbN53qM0e9owCfk+RXNtxxdMRHcro5DzBdxaLAknBGAAAAAAOgAAAAAIAACAAAACsEwtGVHXQXhhsGLqpZ6VnsTGBdBT7fPy5WlWpkaeH45AAAABDp52Zd6zk5vX/x67CBP+dimuR0b7KWkhtncPM2TPyvpfOnSegv0iduXM3AuEsxdD+80aNjimOzMXfFMvDD+bi1WNodnLtWspo9k2ka1qX1JwI77qosRLO206tYUbDn6WiCmpAF14ElvvnAuVnbyyQaUT7rktmy51T6Mqot9sGvsmJc2DIofHsAN20BIEbuRJAAAAApqGoNI8XEZraBUUi25Hh4EgQB+f1K6/ozsksljQ8gXsPo0cRdcyXxK88pPq2tT8RFMu/54nJiA7VxJiMhJKKqQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVS6O9kA9JEu40PrG50XQfAAAAAACAAAAAAAQZgAAAAEAACAAAAAbKKH6ZER4aof+ihPO8TkeQi9SCwnwQnGBVvRNsdd4vQAAAAAOgAAAAAIAACAAAAAzsCFJ4zZsWFCMQhsbMuTzrqcGTaOOgOuh5bBnb45UXpAAAADjuFfybNYOKaJwW9Mfqx++BGYTmAY1nWfYB9xR181yZ7yhAleSaUQoVEqzrJxZ7QOiR7Onjj/3q3YXJAzQZX61fRbmS1a5wS6q9B8/xOsdHM277QGN1/36oJbdgnnRgFCWgPWfnrCa96Q8yee9Rgh2zz5LX91Qh3Ez8tnFO/Rbh0xjCoNdwRfIoY4Jw7NtvAlAAAAAbuPRQZZ9iCYC+/fMwhlp81FjaGoisZzh6u7kOEtAzYmwPC5bPFhqzVXAx5X7wN1bJWiobnTKvVffSQl1V+lTMA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">60</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">65</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{108E1677-1459-469E-AA59-D4D523C3F7C6}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{43874EEC-98BA-4331-A13D-38985E8FD0D7}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -62,7 +62,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Spiros_Junk\MIMIC\</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

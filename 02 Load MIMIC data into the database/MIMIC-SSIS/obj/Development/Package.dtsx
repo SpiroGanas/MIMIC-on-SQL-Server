@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="60"
-  DTS:VersionGUID="{108E1677-1459-469E-AA59-D4D523C3F7C6}">
+  DTS:VersionBuild="65"
+  DTS:VersionGUID="{43874EEC-98BA-4331-A13D-38985E8FD0D7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -33,7 +33,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\ADMISSIONS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\ADMISSIONS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -41,7 +41,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ROW_ID"
-              DTS:DTSID="{F9FACBA8-41F0-4B52-8EA3-7F95513113DF}"
+              DTS:DTSID="{D10E075B-2E05-4187-90EE-9EC667C8CDA9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -49,7 +49,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SUBJECT_ID"
-              DTS:DTSID="{31723BE4-10B0-4958-A6C9-8BAAFC5A6B7A}"
+              DTS:DTSID="{8AA659D9-7843-456B-A6DB-26B79E811CD4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="HADM_ID"
-              DTS:DTSID="{956B6490-D71F-4E79-8513-D893F21377CF}"
+              DTS:DTSID="{18474AB9-CF0F-4B97-8AE9-C9D98FD8F513}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -65,7 +65,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="ADMITTIME"
-              DTS:DTSID="{CB4868F7-7983-4125-982F-4F6DF7C1FB6E}"
+              DTS:DTSID="{BC8CA7AE-DE46-44FC-8B4B-5EF0589461B5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -73,7 +73,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="DISCHTIME"
-              DTS:DTSID="{D1D0330B-81E7-438E-9FE2-CE9100C7B0EE}"
+              DTS:DTSID="{D8A36E25-E8B7-4DD4-AC23-B8B9745D9A9C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -81,34 +81,34 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="DEATHTIME"
-              DTS:DTSID="{D2A77914-98FA-44DD-9918-E03C5C5015B7}"
+              DTS:DTSID="{DD4AE333-B5BF-4549-9AC5-A0732A92204F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="255"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ADMISSION_TYPE"
-              DTS:DTSID="{E9B487E8-DB9B-4ED1-9ED0-C56C7D230481}"
+              DTS:DTSID="{60E83271-8A1A-4866-A2DF-42E300A1E3DA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="255"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ADMISSION_LOCATION"
-              DTS:DTSID="{52931CB6-98F9-4704-AD0F-05FF2754B5C7}"
+              DTS:DTSID="{88A04D51-C9CF-4C55-BD28-9223525567EC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="255"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DISCHARGE_LOCATION"
-              DTS:DTSID="{FB044F23-4437-4C24-852F-04FBDC6DCBE7}"
+              DTS:DTSID="{55AC70C4-76C7-4B82-83AD-D23AC2CCA8DE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -117,43 +117,43 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="INSURANCE"
-              DTS:DTSID="{DBA1C2F1-0566-44F1-B660-470A5E4834FC}"
+              DTS:DTSID="{887B8924-069B-4D23-9A42-2F4A65C5E9B6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="255"
+              DTS:MaximumWidth="10"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LANGUAGE"
-              DTS:DTSID="{0C30AF4A-5DDB-494C-A897-60AE0223215B}"
+              DTS:DTSID="{2C7CD2B8-7555-4F5E-8305-CA2BCF048629}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="255"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="RELIGION"
-              DTS:DTSID="{CD3F4426-7957-4C9B-8E8B-B4D4776C51F1}"
+              DTS:DTSID="{A15790A8-42CD-4E96-8D2E-147659F62EED}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="255"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MARITAL_STATUS"
-              DTS:DTSID="{5537FFFE-3182-4E43-B6AE-F6ACD0F92446}"
+              DTS:DTSID="{3276268C-D404-432F-BFA6-5F5EA2BFECBD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="255"
+              DTS:MaximumWidth="200"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ETHNICITY"
-              DTS:DTSID="{98D80077-7EAD-4AEE-AC2F-DCD25C4C685C}"
+              DTS:DTSID="{4127E82D-8DC6-490C-BEC4-B4C12667C250}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -161,7 +161,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="EDREGTIME"
-              DTS:DTSID="{A5E6AF87-8E1B-44E3-8C50-D920BCE63B63}"
+              DTS:DTSID="{B0854D0B-C99E-4F8C-AF6B-B2C9E10BD367}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -169,7 +169,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="EDOUTTIME"
-              DTS:DTSID="{5BA02120-6976-47ED-998A-203EE862DB24}"
+              DTS:DTSID="{75E33157-C864-4963-961D-0B2A17515670}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -178,7 +178,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DIAGNOSIS"
-              DTS:DTSID="{642221ED-20BF-4CF1-AC5E-759EF20B7102}"
+              DTS:DTSID="{69508F91-2E34-4E6B-A241-F3349211831C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -186,7 +186,7 @@
               DTS:DataType="17"
               DTS:TextQualified="True"
               DTS:ObjectName="HOSPITAL_EXPIRE_FLAG"
-              DTS:DTSID="{982548D9-8FDD-4B44-9ED4-F74C38EE21D6}"
+              DTS:DTSID="{8BFB9118-DA94-47BE-8B70-B349DAC1664B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -194,7 +194,7 @@
               DTS:DataType="17"
               DTS:TextQualified="True"
               DTS:ObjectName="HAS_CHARTEVENTS_DATA"
-              DTS:DTSID="{E9665C5D-9810-44B4-B658-A4D0E7DA772E}"
+              DTS:DTSID="{362B11D6-AB9A-4A13-97EA-A54050AE79F8}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -216,7 +216,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\CALLOUT.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\CALLOUT.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -436,7 +436,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\CAREGIVERS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\CAREGIVERS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -492,7 +492,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\CHARTEVENTS_Error_File.txt">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\CHARTEVENTS_Error_File.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -538,7 +538,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\CHARTEVENTS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\CHARTEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -684,7 +684,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\CPTEVENTS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\CPTEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -692,7 +692,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ROW_ID"
-              DTS:DTSID="{97EE4594-FC8B-4DD6-ADBD-ED353C49E8FF}"
+              DTS:DTSID="{CBA6A21F-4BF1-460B-8BC2-5C986FA2A8D1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -700,7 +700,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SUBJECT_ID"
-              DTS:DTSID="{BFA5414A-4D67-497B-ADE1-AF84945F3492}"
+              DTS:DTSID="{45645E49-183E-4C7A-BDDD-49C908F3DAD6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -708,16 +708,16 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="HADM_ID"
-              DTS:DTSID="{D92E5014-1CD1-4C4D-8625-42D6EE591632}"
+              DTS:DTSID="{1FBE4D6A-D0E4-48C2-9BB3-8150B692E3D1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="300"
+              DTS:MaximumWidth="10"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COSTCENTER"
-              DTS:DTSID="{CC425177-8A6C-4122-A0EC-33C5FC862298}"
+              DTS:DTSID="{FDF9F961-724D-44E6-B3CA-D3137EC51F66}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -725,16 +725,16 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="CHARTDATE"
-              DTS:DTSID="{5F7030A5-2497-4597-B434-2B29550C8E9E}"
+              DTS:DTSID="{96157F9C-6D8A-4F18-9E93-04646028818F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="300"
+              DTS:MaximumWidth="10"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CPT_CD"
-              DTS:DTSID="{D4178D54-9794-4231-80E5-01D4A8BBAA5B}"
+              DTS:DTSID="{655AAB63-F1FE-464A-A3B0-A3890D858EC3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -742,33 +742,33 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="CPT_NUMBER"
-              DTS:DTSID="{211ADD1E-CE05-44C5-B4DB-5FD6DF751476}"
+              DTS:DTSID="{E79F229C-7ADB-49D1-AFD7-D1574E393C48}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="300"
+              DTS:MaximumWidth="5"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CPT_SUFFIX"
-              DTS:DTSID="{C13A29C0-FD57-46A4-B569-B1AEF247DE2D}"
+              DTS:DTSID="{44448422-03AD-45C6-A125-9F3788755B3B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
+              DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="TICKET_ID_SEQ"
-              DTS:DTSID="{BAA48852-3858-4164-85F5-210D2F1AB426}"
+              DTS:DTSID="{E24B3C80-13D4-46BA-8A72-071736115B38}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="300"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SECTIONHEADER"
-              DTS:DTSID="{BABA8A99-3DE9-43AF-BF29-745A91385916}"
+              DTS:DTSID="{DB69D3A4-8453-4E9A-9B26-6C9909BE9D49}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -777,16 +777,16 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SUBSECTIONHEADER"
-              DTS:DTSID="{AEF42DB6-0251-4A3B-A985-5ADCE8E2DD04}"
+              DTS:DTSID="{02214027-8E15-4F0F-9E0C-A1E175E5C968}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="300"
+              DTS:MaximumWidth="255"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DESCRIPTION"
-              DTS:DTSID="{C2E94981-0A9E-447B-A5DA-D4AAC945C2DA}"
+              DTS:DTSID="{C58498CB-19C4-4DDB-BC33-3A1A11672A89}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -808,7 +808,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\DATETIMEEVENTS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\DATETIMEEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -945,7 +945,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\DIAGNOSES_ICD.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\DIAGNOSES_ICD.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1008,7 +1008,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\DRGCODES.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\DRGCODES.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1097,7 +1097,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\D_CPT.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\D_CPT.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1196,7 +1196,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\D_ICD_DIAGNOSES.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\D_ICD_DIAGNOSES.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1253,7 +1253,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\D_ICD_PROCEDURES.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\D_ICD_PROCEDURES.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1310,7 +1310,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\D_ITEMS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\D_ITEMS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1420,7 +1420,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\D_LABITEMS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\D_LABITEMS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1484,7 +1484,7 @@
       DTS:DTSID="{3C0BB146-AD93-47D5-B743-FA615EBC9309}"
       DTS:ObjectName="ICUSTAYS">
       <DTS:PropertyExpression
-        DTS:Name="ConnectionString">@CSV_Folder+"ICDSTAYS.csv"</DTS:PropertyExpression>
+        DTS:Name="ConnectionString">@CSV_Folder+"ICUSTAYS.csv"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -1494,7 +1494,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\ICDSTAYS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\ICUSTAYS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1615,7 +1615,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\INPUTEVENTS_CV.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\INPUTEVENTS_CV.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1820,7 +1820,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\INPUTEVENTS_MV.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\INPUTEVENTS_MV.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2100,7 +2100,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\LABEVENTS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\LABEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2197,7 +2197,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\MICROBIOLOGYEVENTS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\MICROBIOLOGYEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2205,7 +2205,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ROW_ID"
-              DTS:DTSID="{DAE464A4-D79B-44F5-B070-B25543AFB0F9}"
+              DTS:DTSID="{E6AE53EC-97B6-4EB9-843A-E211084065FE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2213,7 +2213,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SUBJECT_ID"
-              DTS:DTSID="{9565EC80-9A02-4ABC-A1E4-45E371F42845}"
+              DTS:DTSID="{4AB41769-67AF-4D39-B6AF-648BA3991B72}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2221,7 +2221,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="HADM_ID"
-              DTS:DTSID="{3D6DE24A-F6A5-4AC7-99B6-06BFE0FD4448}"
+              DTS:DTSID="{525F4CFD-870B-4BF7-8B69-0DC0EFBE4353}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2229,7 +2229,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="CHARTDATE"
-              DTS:DTSID="{7397100E-61ED-41E3-80B1-894B0990B779}"
+              DTS:DTSID="{7257602A-7E4D-4900-BF83-270A4A578019}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2237,7 +2237,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="CHARTTIME"
-              DTS:DTSID="{E28CA61D-8B17-4876-9DAA-94ACF962DB62}"
+              DTS:DTSID="{C4EEA650-D3BF-4A8C-A39C-6BF245EE5F30}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2245,7 +2245,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SPEC_ITEMID"
-              DTS:DTSID="{F731250B-7093-41E5-9C89-E35DCC0FDE14}"
+              DTS:DTSID="{211F8A23-719E-40D0-85B9-1F5FA165724E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2254,7 +2254,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SPEC_TYPE_DESC"
-              DTS:DTSID="{5FF2AB6C-ED5F-484C-BF49-0E28D5BDF26E}"
+              DTS:DTSID="{67DFA03A-C719-4D14-A6CF-B1DEF6C51DA6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2262,7 +2262,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ORG_ITEMID"
-              DTS:DTSID="{1AC202FE-FA51-4514-8D5E-237F9F450DC5}"
+              DTS:DTSID="{8C1388DE-2158-49A2-8444-CB60C91491C6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2271,15 +2271,15 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ORG_NAME"
-              DTS:DTSID="{17D7CB5E-CFE7-4DDA-9B87-B1CE25860D94}"
+              DTS:DTSID="{901A2643-9DBE-4A20-BB4A-EE0F61965296}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
+              DTS:DataType="17"
               DTS:TextQualified="True"
               DTS:ObjectName="ISOLATE_NUM"
-              DTS:DTSID="{F3A069B4-08B9-47FD-B6DD-5DF09E00EBA3}"
+              DTS:DTSID="{E8DECA12-296C-4008-8ABD-F5337B9AE616}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2287,7 +2287,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="AB_ITEMID"
-              DTS:DTSID="{7AED561B-F7AC-4F04-9819-DE654163B648}"
+              DTS:DTSID="{9D0814C4-2111-4154-87A3-F2EA0882B02B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2296,7 +2296,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AB_NAME"
-              DTS:DTSID="{8939CEF9-C365-4AA1-90AE-3F722029288E}"
+              DTS:DTSID="{27017681-19C4-4B83-B4F0-D66040FC9B77}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2305,7 +2305,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DILUTION_TEXT"
-              DTS:DTSID="{1BE67DB7-4AE0-4AF2-9354-C8B49A5EFD8F}"
+              DTS:DTSID="{49305456-9BD7-401C-ACC4-5A667C9BF235}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2314,15 +2314,15 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DILUTION_COMPARISON"
-              DTS:DTSID="{67302038-32EB-4652-99DD-554BC12FE061}"
+              DTS:DTSID="{93945D6A-36C7-41C7-925A-312EE0448A20}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
+              DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="DILUTION_VALUE"
-              DTS:DTSID="{167B402A-59C7-482C-8FE5-9D4BDFB1EF7E}"
+              DTS:DTSID="{27CAF278-36BB-4440-A163-430120DD450C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2331,7 +2331,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="INTERPRETATION"
-              DTS:DTSID="{AB38244D-98F1-4F08-A397-90002627A5D4}"
+              DTS:DTSID="{80AC6F10-9C98-4895-95C8-879162E43B54}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -2367,7 +2367,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\NOTEEVENTS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\NOTEEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2479,7 +2479,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\OUTPUTEVENTS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\OUTPUTEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2606,7 +2606,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\PATIENTS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\PATIENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2693,7 +2693,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\PRESCRIPTIONS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\PRESCRIPTIONS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2880,7 +2880,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\PROCEDUREEVENTS_MV.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\PROCEDUREEVENTS_MV.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2888,7 +2888,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ROW_ID"
-              DTS:DTSID="{700EFE51-6607-4014-B1EF-A74547F64BF9}"
+              DTS:DTSID="{17006546-D428-4A18-A737-0A4C7F4C0E45}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2896,7 +2896,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SUBJECT_ID"
-              DTS:DTSID="{3218972A-B763-4A01-9919-349B897D896B}"
+              DTS:DTSID="{7C7F6E45-4A9A-4EBF-A25B-730F9AD2A522}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2904,7 +2904,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="HADM_ID"
-              DTS:DTSID="{C792B6E5-F747-4B9E-9768-F342FAB38001}"
+              DTS:DTSID="{7F90C1E6-D644-4CE5-92B6-F4B9192112D5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2912,7 +2912,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ICUSTAY_ID"
-              DTS:DTSID="{580C817A-0C00-4DC8-B4BA-FDA17A49C8DE}"
+              DTS:DTSID="{6F6E593B-C942-4098-BE20-F9BDCBF47ABC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2920,7 +2920,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="STARTTIME"
-              DTS:DTSID="{F7CF4209-E505-446C-91B8-A41062E48DE9}"
+              DTS:DTSID="{5CECB7DB-118C-463A-9ADD-47207ED47219}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2928,7 +2928,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="ENDTIME"
-              DTS:DTSID="{38592190-A9BA-4A70-978C-246EA5779C06}"
+              DTS:DTSID="{82CC5CF5-22E9-423F-9579-01AA1104085B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2936,7 +2936,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ITEMID"
-              DTS:DTSID="{DE34D9A2-3B76-4E05-952D-419879B3E911}"
+              DTS:DTSID="{F0DD84B5-69A4-45AA-BF45-23D1CD0C7453}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2944,7 +2944,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="VALUE"
-              DTS:DTSID="{2B9E509D-688C-4CB7-818F-AB603E841113}"
+              DTS:DTSID="{B7629A78-C8C5-46AB-9206-EC453D5D0605}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2953,7 +2953,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="VALUEUOM"
-              DTS:DTSID="{F2027DCF-7B68-4CC5-9C94-B9B0E4BC3AE0}"
+              DTS:DTSID="{AA7FAA1E-B8BA-43CB-82E0-43997647903E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2962,7 +2962,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LOCATION"
-              DTS:DTSID="{CE1F86B9-5FD0-4C90-8958-B48AFB0B74CF}"
+              DTS:DTSID="{031E4A2E-C902-4770-8D0C-04C081706EF7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2971,7 +2971,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LOCATIONCATEGORY"
-              DTS:DTSID="{62E649C6-F25B-45F4-B27F-068F10384689}"
+              DTS:DTSID="{55FDC16B-A799-423D-8F36-B67238277115}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2979,15 +2979,15 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="STORETIME"
-              DTS:DTSID="{5974A07A-2965-439E-AA26-729C903B2C27}"
+              DTS:DTSID="{592F9F0E-C157-43DC-8173-ECC0D7088397}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
+              DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="CGID"
-              DTS:DTSID="{BAEBC3D2-C041-4479-9697-5A2CF228CAE1}"
+              DTS:DTSID="{B2C87557-E36A-4106-8610-6EA0B745E64D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2995,7 +2995,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ORDERID"
-              DTS:DTSID="{F45E1A1F-3F5E-490A-923B-9BF4FCF36AEE}"
+              DTS:DTSID="{32679CDF-F46B-4AB8-93CE-4263FD4CD6D5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3003,7 +3003,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="LINKORDERID"
-              DTS:DTSID="{CFCC52FC-B84F-4560-B9F9-7043D55064D6}"
+              DTS:DTSID="{376F432D-91C8-4807-8B26-FF89D5F36600}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3012,7 +3012,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ORDERCATEGORYNAME"
-              DTS:DTSID="{33C5F5ED-1CF2-4AB7-8234-418CAC618AAA}"
+              DTS:DTSID="{E4330578-2871-4A7E-B1A0-80DD1C8539E4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3021,7 +3021,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SECONDARYORDERCATEGORYNAME"
-              DTS:DTSID="{35178E21-1E3D-491D-BAAA-380046F87052}"
+              DTS:DTSID="{DE386374-DEC2-4960-B5D4-56933A29F8AF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3030,31 +3030,31 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ORDERCATEGORYDESCRIPTION"
-              DTS:DTSID="{77CE60FC-F198-440F-BBBC-6E424A276CD3}"
+              DTS:DTSID="{CAFA9DF2-9B61-4B5A-94C0-E2DBD0EC525C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="16"
+              DTS:DataType="17"
               DTS:TextQualified="True"
               DTS:ObjectName="ISOPENBAG"
-              DTS:DTSID="{5108A228-2334-4801-81F4-34000BC81E78}"
+              DTS:DTSID="{5FD32167-BCE2-4D6A-9F1D-3DFA4C9DD48F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="16"
+              DTS:DataType="17"
               DTS:TextQualified="True"
               DTS:ObjectName="CONTINUEINNEXTDEPT"
-              DTS:DTSID="{83A38F9D-A5A4-4ED2-98C5-2784310B8DF0}"
+              DTS:DTSID="{E453C06C-1D42-4123-A601-843BEE9A911B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="16"
+              DTS:DataType="17"
               DTS:TextQualified="True"
               DTS:ObjectName="CANCELREASON"
-              DTS:DTSID="{C61B68D0-7A1D-4FA1-AF04-318DA75C8A8C}"
+              DTS:DTSID="{1609388F-AC5F-40FA-9DA9-379495FCCF60}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3063,7 +3063,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="STATUSDESCRIPTION"
-              DTS:DTSID="{3D7DB9DA-EF5D-4381-8D07-3DAEDB1AABC7}"
+              DTS:DTSID="{CA0D1ECF-D189-4DBB-A8A8-A057B1CC09B2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3072,7 +3072,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COMMENTS_EDITEDBY"
-              DTS:DTSID="{61DE0728-B0F3-4A0A-B043-E6833F17CB63}"
+              DTS:DTSID="{3ADB5452-F100-4814-AF28-A24ADE4813FD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3081,7 +3081,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COMMENTS_CANCELEDBY"
-              DTS:DTSID="{624627A8-BA85-43F9-8389-7B99A8FBD375}"
+              DTS:DTSID="{F18E8184-4935-4569-B1F1-4772FD790552}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3089,7 +3089,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="COMMENTS_DATE"
-              DTS:DTSID="{57C8C114-4C88-4CE1-9EB6-16643ED8B6F2}"
+              DTS:DTSID="{B454C499-01AF-43F3-8830-8B6AA02198E2}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -3111,7 +3111,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\PROCEDURES_ICD.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\PROCEDURES_ICD.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3174,7 +3174,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\SERVICES.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\SERVICES.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3246,7 +3246,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Spiros_Junk\MIMIC\TRANSFERS.csv">
+          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\TRANSFERS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3369,7 +3369,7 @@
       DTS:ObjectName="CSV_Folder">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\Spiros_Junk\MIMIC\</DTS:Property>
+        DTS:Name="ParameterValue">C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -7977,7 +7977,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[ADMISSION_TYPE]"
-                          length="255"
+                          length="50"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[ADMISSION_TYPE]"
                           name="ADMISSION_TYPE"
                           truncationRowDisposition="FailComponent">
@@ -7999,7 +7999,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[ADMISSION_LOCATION]"
-                          length="255"
+                          length="50"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[ADMISSION_LOCATION]"
                           name="ADMISSION_LOCATION"
                           truncationRowDisposition="FailComponent">
@@ -8021,7 +8021,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[DISCHARGE_LOCATION]"
-                          length="255"
+                          length="50"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[DISCHARGE_LOCATION]"
                           name="DISCHARGE_LOCATION"
                           truncationRowDisposition="FailComponent">
@@ -8065,7 +8065,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[LANGUAGE]"
-                          length="255"
+                          length="10"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[LANGUAGE]"
                           name="LANGUAGE"
                           truncationRowDisposition="FailComponent">
@@ -8087,7 +8087,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[RELIGION]"
-                          length="255"
+                          length="50"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[RELIGION]"
                           name="RELIGION"
                           truncationRowDisposition="FailComponent">
@@ -8109,7 +8109,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[MARITAL_STATUS]"
-                          length="255"
+                          length="50"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[MARITAL_STATUS]"
                           name="MARITAL_STATUS"
                           truncationRowDisposition="FailComponent">
@@ -8131,7 +8131,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[ETHNICITY]"
-                          length="255"
+                          length="200"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[ETHNICITY]"
                           name="ETHNICITY"
                           truncationRowDisposition="FailComponent">
@@ -8279,19 +8279,19 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[ADMISSION_TYPE]"
                           codePage="1252"
                           dataType="str"
-                          length="255"
+                          length="50"
                           name="ADMISSION_TYPE" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[ADMISSION_LOCATION]"
                           codePage="1252"
                           dataType="str"
-                          length="255"
+                          length="50"
                           name="ADMISSION_LOCATION" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[DISCHARGE_LOCATION]"
                           codePage="1252"
                           dataType="str"
-                          length="255"
+                          length="50"
                           name="DISCHARGE_LOCATION" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[INSURANCE]"
@@ -8303,25 +8303,25 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[LANGUAGE]"
                           codePage="1252"
                           dataType="str"
-                          length="255"
+                          length="10"
                           name="LANGUAGE" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[RELIGION]"
                           codePage="1252"
                           dataType="str"
-                          length="255"
+                          length="50"
                           name="RELIGION" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[MARITAL_STATUS]"
                           codePage="1252"
                           dataType="str"
-                          length="255"
+                          length="50"
                           name="MARITAL_STATUS" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[ETHNICITY]"
                           codePage="1252"
                           dataType="str"
-                          length="255"
+                          length="200"
                           name="ETHNICITY" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].ExternalColumns[EDREGTIME]"
@@ -8465,7 +8465,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[ADMISSION_TYPE]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="255"
+                          cachedLength="50"
                           cachedName="ADMISSION_TYPE"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ADMISSION_TYPE]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[ADMISSION_TYPE]" />
@@ -8473,7 +8473,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[ADMISSION_LOCATION]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="255"
+                          cachedLength="50"
                           cachedName="ADMISSION_LOCATION"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ADMISSION_LOCATION]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[ADMISSION_LOCATION]" />
@@ -8481,7 +8481,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[DISCHARGE_LOCATION]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="255"
+                          cachedLength="50"
                           cachedName="DISCHARGE_LOCATION"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[DISCHARGE_LOCATION]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[DISCHARGE_LOCATION]" />
@@ -8497,7 +8497,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[LANGUAGE]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="255"
+                          cachedLength="10"
                           cachedName="LANGUAGE"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[LANGUAGE]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[LANGUAGE]" />
@@ -8505,7 +8505,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[RELIGION]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="255"
+                          cachedLength="50"
                           cachedName="RELIGION"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[RELIGION]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[RELIGION]" />
@@ -8513,7 +8513,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[MARITAL_STATUS]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="255"
+                          cachedLength="50"
                           cachedName="MARITAL_STATUS"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[MARITAL_STATUS]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[MARITAL_STATUS]" />
@@ -8521,7 +8521,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[ETHNICITY]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="255"
+                          cachedLength="200"
                           cachedName="ETHNICITY"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ETHNICITY]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output].Columns[ETHNICITY]" />
@@ -8744,7 +8744,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[COSTCENTER]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="300"
+                          cachedLength="10"
                           cachedName="COSTCENTER"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[COSTCENTER]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].Columns[COSTCENTER]" />
@@ -8758,7 +8758,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[CPT_CD]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="300"
+                          cachedLength="10"
                           cachedName="CPT_CD"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[CPT_CD]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].Columns[CPT_CD]" />
@@ -8772,13 +8772,13 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[CPT_SUFFIX]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="300"
+                          cachedLength="5"
                           cachedName="CPT_SUFFIX"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[CPT_SUFFIX]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].Columns[CPT_SUFFIX]" />
                         <inputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[TICKET_ID_SEQ]"
-                          cachedDataType="i4"
+                          cachedDataType="i2"
                           cachedName="TICKET_ID_SEQ"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[TICKET_ID_SEQ]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].Columns[TICKET_ID_SEQ]" />
@@ -8786,7 +8786,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[SECTIONHEADER]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="300"
+                          cachedLength="50"
                           cachedName="SECTIONHEADER"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[SECTIONHEADER]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].Columns[SECTIONHEADER]" />
@@ -8802,7 +8802,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[DESCRIPTION]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="300"
+                          cachedLength="255"
                           cachedName="DESCRIPTION"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[DESCRIPTION]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].Columns[DESCRIPTION]" />
@@ -10362,7 +10362,7 @@
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].Columns[STORETIME]" />
                         <inputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2.Inputs[ADO NET Destination Input].Columns[CGID]"
-                          cachedDataType="i4"
+                          cachedDataType="i2"
                           cachedName="CGID"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2.Inputs[ADO NET Destination Input].ExternalColumns[CGID]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].Columns[CGID]" />
@@ -10404,19 +10404,19 @@
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].Columns[ORDERCATEGORYDESCRIPTION]" />
                         <inputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2.Inputs[ADO NET Destination Input].Columns[ISOPENBAG]"
-                          cachedDataType="i1"
+                          cachedDataType="ui1"
                           cachedName="ISOPENBAG"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2.Inputs[ADO NET Destination Input].ExternalColumns[ISOPENBAG]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].Columns[ISOPENBAG]" />
                         <inputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2.Inputs[ADO NET Destination Input].Columns[CONTINUEINNEXTDEPT]"
-                          cachedDataType="i1"
+                          cachedDataType="ui1"
                           cachedName="CONTINUEINNEXTDEPT"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2.Inputs[ADO NET Destination Input].ExternalColumns[CONTINUEINNEXTDEPT]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].Columns[CONTINUEINNEXTDEPT]" />
                         <inputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2.Inputs[ADO NET Destination Input].Columns[CANCELREASON]"
-                          cachedDataType="i1"
+                          cachedDataType="ui1"
                           cachedName="CANCELREASON"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2.Inputs[ADO NET Destination Input].ExternalColumns[CANCELREASON]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].Columns[CANCELREASON]" />
@@ -10699,7 +10699,7 @@
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output].Columns[ORG_NAME]" />
                         <inputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 1.Inputs[ADO NET Destination Input].Columns[ISOLATE_NUM]"
-                          cachedDataType="i4"
+                          cachedDataType="ui1"
                           cachedName="ISOLATE_NUM"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 1.Inputs[ADO NET Destination Input].ExternalColumns[ISOLATE_NUM]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output].Columns[ISOLATE_NUM]" />
@@ -10735,7 +10735,7 @@
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output].Columns[DILUTION_COMPARISON]" />
                         <inputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 1.Inputs[ADO NET Destination Input].Columns[DILUTION_VALUE]"
-                          cachedDataType="i4"
+                          cachedDataType="i2"
                           cachedName="DILUTION_VALUE"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 1.Inputs[ADO NET Destination Input].ExternalColumns[DILUTION_VALUE]"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output].Columns[DILUTION_VALUE]" />
@@ -13092,7 +13092,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[COSTCENTER]"
-                          length="300"
+                          length="10"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].Columns[COSTCENTER]"
                           name="COSTCENTER"
                           truncationRowDisposition="FailComponent">
@@ -13134,7 +13134,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[CPT_CD]"
-                          length="300"
+                          length="10"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].Columns[CPT_CD]"
                           name="CPT_CD"
                           truncationRowDisposition="FailComponent">
@@ -13176,7 +13176,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[CPT_SUFFIX]"
-                          length="300"
+                          length="5"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].Columns[CPT_SUFFIX]"
                           name="CPT_SUFFIX"
                           truncationRowDisposition="FailComponent">
@@ -13193,7 +13193,7 @@
                         </outputColumn>
                         <outputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].Columns[TICKET_ID_SEQ]"
-                          dataType="i4"
+                          dataType="i2"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[TICKET_ID_SEQ]"
@@ -13218,7 +13218,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[SECTIONHEADER]"
-                          length="300"
+                          length="50"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].Columns[SECTIONHEADER]"
                           name="SECTIONHEADER"
                           truncationRowDisposition="FailComponent">
@@ -13262,7 +13262,7 @@
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[DESCRIPTION]"
-                          length="300"
+                          length="255"
                           lineageId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].Columns[DESCRIPTION]"
                           name="DESCRIPTION"
                           truncationRowDisposition="FailComponent">
@@ -13296,7 +13296,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[COSTCENTER]"
                           codePage="1252"
                           dataType="str"
-                          length="300"
+                          length="10"
                           name="COSTCENTER" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[CHARTDATE]"
@@ -13306,7 +13306,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[CPT_CD]"
                           codePage="1252"
                           dataType="str"
-                          length="300"
+                          length="10"
                           name="CPT_CD" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[CPT_NUMBER]"
@@ -13316,17 +13316,17 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[CPT_SUFFIX]"
                           codePage="1252"
                           dataType="str"
-                          length="300"
+                          length="5"
                           name="CPT_SUFFIX" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[TICKET_ID_SEQ]"
-                          dataType="i4"
+                          dataType="i2"
                           name="TICKET_ID_SEQ" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[SECTIONHEADER]"
                           codePage="1252"
                           dataType="str"
-                          length="300"
+                          length="50"
                           name="SECTIONHEADER" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[SUBSECTIONHEADER]"
@@ -13338,7 +13338,7 @@
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output].ExternalColumns[DESCRIPTION]"
                           codePage="1252"
                           dataType="str"
-                          length="300"
+                          length="255"
                           name="DESCRIPTION" />
                       </externalMetadataColumns>
                     </output>
@@ -15620,7 +15620,7 @@
                         </outputColumn>
                         <outputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output].Columns[ISOLATE_NUM]"
-                          dataType="i4"
+                          dataType="ui1"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output].ExternalColumns[ISOLATE_NUM]"
@@ -15726,7 +15726,7 @@
                         </outputColumn>
                         <outputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output].Columns[DILUTION_VALUE]"
-                          dataType="i4"
+                          dataType="i2"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output].ExternalColumns[DILUTION_VALUE]"
@@ -15811,7 +15811,7 @@
                           name="ORG_NAME" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output].ExternalColumns[ISOLATE_NUM]"
-                          dataType="i4"
+                          dataType="ui1"
                           name="ISOLATE_NUM" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output].ExternalColumns[AB_ITEMID]"
@@ -15837,7 +15837,7 @@
                           name="DILUTION_COMPARISON" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output].ExternalColumns[DILUTION_VALUE]"
-                          dataType="i4"
+                          dataType="i2"
                           name="DILUTION_VALUE" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output].ExternalColumns[INTERPRETATION]"
@@ -16797,7 +16797,7 @@
                         </outputColumn>
                         <outputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].Columns[CGID]"
-                          dataType="i4"
+                          dataType="i2"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].ExternalColumns[CGID]"
@@ -16923,7 +16923,7 @@
                         </outputColumn>
                         <outputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].Columns[ISOPENBAG]"
-                          dataType="i1"
+                          dataType="ui1"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].ExternalColumns[ISOPENBAG]"
@@ -16943,7 +16943,7 @@
                         </outputColumn>
                         <outputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].Columns[CONTINUEINNEXTDEPT]"
-                          dataType="i1"
+                          dataType="ui1"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].ExternalColumns[CONTINUEINNEXTDEPT]"
@@ -16963,7 +16963,7 @@
                         </outputColumn>
                         <outputColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].Columns[CANCELREASON]"
-                          dataType="i1"
+                          dataType="ui1"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].ExternalColumns[CANCELREASON]"
@@ -17126,7 +17126,7 @@
                           name="STORETIME" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].ExternalColumns[CGID]"
-                          dataType="i4"
+                          dataType="i2"
                           name="CGID" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].ExternalColumns[ORDERID]"
@@ -17156,15 +17156,15 @@
                           name="ORDERCATEGORYDESCRIPTION" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].ExternalColumns[ISOPENBAG]"
-                          dataType="i1"
+                          dataType="ui1"
                           name="ISOPENBAG" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].ExternalColumns[CONTINUEINNEXTDEPT]"
-                          dataType="i1"
+                          dataType="ui1"
                           name="CONTINUEINNEXTDEPT" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].ExternalColumns[CANCELREASON]"
-                          dataType="i1"
+                          dataType="ui1"
                           name="CANCELREASON" />
                         <externalMetadataColumn
                           refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output].ExternalColumns[STATUSDESCRIPTION]"
@@ -18027,44 +18027,44 @@
                   startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output16]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 2.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\OUTPUTEVENTS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ITEMS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output15]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 1 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\DIAGNOSES_ICD.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output14]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDURES_ICD.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output13]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 4 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PATIENTS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output12]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3 2.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\TRANSFERS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\SERVICES.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output11]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 3.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ICD_DIAGNOSES.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CALLOUT.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output10]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 2.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\DRGCODES.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ICUSTAYS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output17]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 2.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 3.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_CPT.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CAREGIVERS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output9]"
                   endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 4.Inputs[ADO NET Destination Input]"
@@ -18072,44 +18072,44 @@
                   startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ICD_PROCEDURES.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output7]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 2.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ICUSTAYS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\DRGCODES.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output6]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 3.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CALLOUT.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ICD_DIAGNOSES.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output5]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3 2.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\SERVICES.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\TRANSFERS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output4]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 4 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PATIENTS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output3]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDURES_ICD.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output2]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 1 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\DIAGNOSES_ICD.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output1]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 2.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ITEMS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\OUTPUTEVENTS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output8]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 3.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 2.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CAREGIVERS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_CPT.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output18]"
                   endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 4.Inputs[ADO NET Destination Input]"
@@ -20222,59 +20222,171 @@
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="135,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS"
-          TopLeft="681,47" />
-        <NodeLayout
-          Size="197,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 1"
-          TopLeft="451,129" />
-        <NodeLayout
-          Size="193,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS"
-          TopLeft="450,48" />
-        <NodeLayout
-          Size="199,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV"
-          TopLeft="843,53" />
+          Size="160,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\DIAGNOSES_ICD"
+          TopLeft="676.5,386" />
         <NodeLayout
           Size="179,43"
           Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination"
           TopLeft="28,132" />
         <NodeLayout
+          Size="169,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 1"
+          TopLeft="260,129" />
+        <NodeLayout
+          Size="127,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PATIENTS"
+          TopLeft="1056.25,208.75" />
+        <NodeLayout
+          Size="197,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3 1"
+          TopLeft="19,285" />
+        <NodeLayout
+          Size="123,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CALLOUT"
+          TopLeft="627,211" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 3"
+          TopLeft="1093.5,483" />
+        <NodeLayout
+          Size="122,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ITEMS"
+          TopLeft="893.5,385" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 3"
+          TopLeft="628,282" />
+        <NodeLayout
+          Size="111,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_CPT"
+          TopLeft="435,208" />
+        <NodeLayout
+          Size="127,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ICUSTAYS"
+          TopLeft="245,382" />
+        <NodeLayout
+          Size="135,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\TRANSFERS"
+          TopLeft="1074,46" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3"
+          TopLeft="235,488" />
+        <NodeLayout
+          Size="168,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDURES_ICD"
+          TopLeft="452.5,387" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 4 1"
+          TopLeft="1035,277" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ICD_PROCEDURES"
+          TopLeft="32,386" />
+        <NodeLayout
+          Size="160,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1"
+          TopLeft="684,129" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 2"
+          TopLeft="872.5,490" />
+        <NodeLayout
+          Size="179,43"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 2"
+          TopLeft="417,277" />
+        <NodeLayout
+          Size="156,43"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3"
+          TopLeft="1061,128" />
+        <NodeLayout
+          Size="199,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV"
+          TopLeft="843,53" />
+        <NodeLayout
+          Size="193,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS"
+          TopLeft="450,48" />
+        <NodeLayout
+          Size="140,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_LABITEMS"
+          TopLeft="1329.5,386" />
+        <NodeLayout
+          Size="179,43"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 4"
+          TopLeft="32,491" />
+        <NodeLayout
+          Size="135,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS"
+          TopLeft="681,47" />
+        <NodeLayout
+          Size="179,43"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 2"
+          TopLeft="229,278" />
+        <NodeLayout
           Size="147,42"
           Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2"
           TopLeft="872,129" />
+        <NodeLayout
+          Size="133,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\DRGCODES"
+          TopLeft="246,205" />
+        <NodeLayout
+          Size="126,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\SERVICES"
+          TopLeft="835,213" />
+        <NodeLayout
+          Size="140,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CAREGIVERS"
+          TopLeft="1113.5,388" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ICD_DIAGNOSES"
+          TopLeft="37,203" />
+        <NodeLayout
+          Size="207,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 1 1"
+          TopLeft="653.5,489" />
         <NodeLayout
           Size="156,42"
           Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\OUTPUTEVENTS"
           TopLeft="261,46" />
         <NodeLayout
+          Size="188,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3 2"
+          TopLeft="829,278" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 4"
+          TopLeft="1309.5,484" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 1"
+          TopLeft="452.5,490" />
+        <NodeLayout
           Size="141,42"
           Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS"
           TopLeft="46,44" />
         <NodeLayout
-          Size="169,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 1"
-          TopLeft="260,129" />
-        <NodeLayout
-          Size="130,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1"
-          TopLeft="684,129" />
+          Size="197,42"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 1"
+          TopLeft="451,129" />
         <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output13]"
-          TopLeft="944,95">
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output18]"
+          TopLeft="1401.5,428">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,34"
+              EndConnector="0,56"
               Start="0,0"
-              End="0,26.5">
+              End="0,48.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.5" />
+                    End="0,48.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20284,7 +20396,97 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output14]"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output8]"
+          TopLeft="490.5,250">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="16,27"
+              Start="0,0"
+              End="16,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,9.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,9.5"
+                    Point2="0,13.5"
+                    Point3="4,13.5" />
+                  <mssgle:LineSegment
+                    End="12,13.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="12,13.5"
+                    Point2="16,13.5"
+                    Point3="16,17.5" />
+                  <mssgle:LineSegment
+                    End="16,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output1]"
+          TopLeft="341.75,88">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,41"
+              Start="0,0"
+              End="0,33.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output2]"
+          TopLeft="748.5,89">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="15.5,40"
+              Start="0,0"
+              End="15.5,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16"
+                    Point2="0,20"
+                    Point3="4,20" />
+                  <mssgle:LineSegment
+                    End="11.5,20" />
+                  <mssgle:CubicBezierSegment
+                    Point1="11.5,20"
+                    Point2="15.5,20"
+                    Point3="15.5,24" />
+                  <mssgle:LineSegment
+                    End="15.5,32.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output3]"
           TopLeft="548,90">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -20306,8 +20508,30 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output15]"
-          TopLeft="748.75,89">
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output4]"
+          TopLeft="944,95">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34"
+              Start="0,0"
+              End="0,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output5]"
+          TopLeft="1140.25,88">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -20328,19 +20552,311 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output16]"
-          TopLeft="341.75,88">
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output6]"
+          TopLeft="120.5,245">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,41"
+              EndConnector="0,40"
               Start="0,0"
-              End="0,33.5">
+              End="0,32.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33.5" />
+                    End="0,32.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output7]"
+          TopLeft="315.5,247">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,31"
+              Start="0,0"
+              End="0,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output9]"
+          TopLeft="122,428">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,63"
+              Start="0,0"
+              End="0,55.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,55.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output17]"
+          TopLeft="1185.5,430">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,53"
+              Start="0,0"
+              End="0,45.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output10]"
+          TopLeft="308.5,424">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="20.5,64"
+              Start="0,0"
+              End="20.5,56.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28"
+                    Point2="0,32"
+                    Point3="4,32" />
+                  <mssgle:LineSegment
+                    End="16.5,32" />
+                  <mssgle:CubicBezierSegment
+                    Point1="16.5,32"
+                    Point2="20.5,32"
+                    Point3="20.5,36" />
+                  <mssgle:LineSegment
+                    End="20.5,56.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output11]"
+          TopLeft="688.5,253">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="33.5,29"
+              Start="0,0"
+              End="33.5,21.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.5"
+                    Point2="0,14.5"
+                    Point3="4,14.5" />
+                  <mssgle:LineSegment
+                    End="29.5,14.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="29.5,14.5"
+                    Point2="33.5,14.5"
+                    Point3="33.5,18.5" />
+                  <mssgle:LineSegment
+                    End="33.5,21.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output12]"
+          TopLeft="898,255">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="25,23"
+              Start="0,0"
+              End="25,15.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,7.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,7.5"
+                    Point2="0,11.5"
+                    Point3="4,11.5" />
+                  <mssgle:LineSegment
+                    End="21,11.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="21,11.5"
+                    Point2="25,11.5"
+                    Point3="25,15.5" />
+                  <mssgle:LineSegment
+                    End="25,15.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output13]"
+          TopLeft="1119.75,250.75">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="9.25,26.25"
+              Start="0,0"
+              End="9.25,18.75">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,9.125" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,9.125"
+                    Point2="0,13.125"
+                    Point3="4,13.125" />
+                  <mssgle:LineSegment
+                    End="5.25,13.125" />
+                  <mssgle:CubicBezierSegment
+                    Point1="5.25,13.125"
+                    Point2="9.25,13.125"
+                    Point3="9.25,17.125" />
+                  <mssgle:LineSegment
+                    End="9.25,18.75" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output14]"
+          TopLeft="536.5,429">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="10,61"
+              Start="0,0"
+              End="10,53.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.5"
+                    Point2="0,30.5"
+                    Point3="4,30.5" />
+                  <mssgle:LineSegment
+                    End="6,30.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="6,30.5"
+                    Point2="10,30.5"
+                    Point3="10,34.5" />
+                  <mssgle:LineSegment
+                    End="10,53.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output15]"
+          TopLeft="756.75,428">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,61"
+              Start="0,0"
+              End="0,53.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,53.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output16]"
+          TopLeft="954.5,427">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="12,63"
+              Start="0,0"
+              End="12,55.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.5"
+                    Point2="0,31.5"
+                    Point3="4,31.5" />
+                  <mssgle:LineSegment
+                    End="8,31.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="8,31.5"
+                    Point2="12,31.5"
+                    Point3="12,35.5" />
+                  <mssgle:LineSegment
+                    End="12,55.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20378,510 +20894,6 @@
           Size="601,40"
           Id="b975d502-0283-4e47-bf5d-9668bbb00b1a"
           TopLeft="11,0" />
-        <NodeLayout
-          Size="135,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\TRANSFERS"
-          TopLeft="1074,46" />
-        <NodeLayout
-          Size="173,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ICD_DIAGNOSES"
-          TopLeft="37,203" />
-        <NodeLayout
-          Size="133,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\DRGCODES"
-          TopLeft="246,205" />
-        <NodeLayout
-          Size="111,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_CPT"
-          TopLeft="435,208" />
-        <NodeLayout
-          Size="156,43"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3"
-          TopLeft="1061,128" />
-        <NodeLayout
-          Size="179,43"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 2"
-          TopLeft="229,278" />
-        <NodeLayout
-          Size="179,43"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 2"
-          TopLeft="417,277" />
-        <NodeLayout
-          Size="197,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3 1"
-          TopLeft="19,285" />
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output12]"
-          TopLeft="1140.25,88">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,40"
-              Start="0,0"
-              End="0,32.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output11]"
-          TopLeft="120.5,245">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,40"
-              Start="0,0"
-              End="0,32.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output10]"
-          TopLeft="315.5,247">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,31"
-              Start="0,0"
-              End="0,23.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output17]"
-          TopLeft="490.5,250">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="16,27"
-              Start="0,0"
-              End="16,19.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,9.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,9.5"
-                    Point2="0,13.5"
-                    Point3="4,13.5" />
-                  <mssgle:LineSegment
-                    End="12,13.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="12,13.5"
-                    Point2="16,13.5"
-                    Point3="16,17.5" />
-                  <mssgle:LineSegment
-                    End="16,19.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="126,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\SERVICES"
-          TopLeft="835,213" />
-        <NodeLayout
-          Size="127,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ICUSTAYS"
-          TopLeft="245,382" />
-        <NodeLayout
-          Size="123,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CALLOUT"
-          TopLeft="627,211" />
-        <NodeLayout
-          Size="127,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PATIENTS"
-          TopLeft="1056.25,208.75" />
-        <NodeLayout
-          Size="181,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ICD_PROCEDURES"
-          TopLeft="32,386" />
-        <NodeLayout
-          Size="179,43"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 4"
-          TopLeft="32,491" />
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3"
-          TopLeft="235,488" />
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 3"
-          TopLeft="628,282" />
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3 2"
-          TopLeft="829,278" />
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 4 1"
-          TopLeft="1035,277" />
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output9]"
-          TopLeft="122,428">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,63"
-              Start="0,0"
-              End="0,55.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,55.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output7]"
-          TopLeft="308.5,424">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="20.5,64"
-              Start="0,0"
-              End="20.5,56.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,28" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,28"
-                    Point2="0,32"
-                    Point3="4,32" />
-                  <mssgle:LineSegment
-                    End="16.5,32" />
-                  <mssgle:CubicBezierSegment
-                    Point1="16.5,32"
-                    Point2="20.5,32"
-                    Point3="20.5,36" />
-                  <mssgle:LineSegment
-                    End="20.5,56.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output6]"
-          TopLeft="688.5,253">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="33.5,29"
-              Start="0,0"
-              End="33.5,21.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,10.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,10.5"
-                    Point2="0,14.5"
-                    Point3="4,14.5" />
-                  <mssgle:LineSegment
-                    End="29.5,14.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="29.5,14.5"
-                    Point2="33.5,14.5"
-                    Point3="33.5,18.5" />
-                  <mssgle:LineSegment
-                    End="33.5,21.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output5]"
-          TopLeft="898,255">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="25,23"
-              Start="0,0"
-              End="25,15.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,7.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,7.5"
-                    Point2="0,11.5"
-                    Point3="4,11.5" />
-                  <mssgle:LineSegment
-                    End="21,11.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="21,11.5"
-                    Point2="25,11.5"
-                    Point3="25,15.5" />
-                  <mssgle:LineSegment
-                    End="25,15.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output4]"
-          TopLeft="1119.75,250.75">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="9.25,26.25"
-              Start="0,0"
-              End="9.25,18.75">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,9.125" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,9.125"
-                    Point2="0,13.125"
-                    Point3="4,13.125" />
-                  <mssgle:LineSegment
-                    End="5.25,13.125" />
-                  <mssgle:CubicBezierSegment
-                    Point1="5.25,13.125"
-                    Point2="9.25,13.125"
-                    Point3="9.25,17.125" />
-                  <mssgle:LineSegment
-                    End="9.25,18.75" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="122,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ITEMS"
-          TopLeft="893.5,385" />
-        <NodeLayout
-          Size="140,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_LABITEMS"
-          TopLeft="1329.5,386" />
-        <NodeLayout
-          Size="168,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDURES_ICD"
-          TopLeft="452.5,387" />
-        <NodeLayout
-          Size="160,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\DIAGNOSES_ICD"
-          TopLeft="676.5,386" />
-        <NodeLayout
-          Size="140,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CAREGIVERS"
-          TopLeft="1113.5,388" />
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 1"
-          TopLeft="452.5,490" />
-        <NodeLayout
-          Size="207,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 1 1"
-          TopLeft="653.5,489" />
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 2"
-          TopLeft="872.5,490" />
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 3"
-          TopLeft="1093.5,483" />
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 4"
-          TopLeft="1309.5,484" />
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output3]"
-          TopLeft="536.5,429">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="10,61"
-              Start="0,0"
-              End="10,53.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.5"
-                    Point2="0,30.5"
-                    Point3="4,30.5" />
-                  <mssgle:LineSegment
-                    End="6,30.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="6,30.5"
-                    Point2="10,30.5"
-                    Point3="10,34.5" />
-                  <mssgle:LineSegment
-                    End="10,53.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output2]"
-          TopLeft="756.75,428">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,61"
-              Start="0,0"
-              End="0,53.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,53.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output1]"
-          TopLeft="954.5,427">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="12,63"
-              Start="0,0"
-              End="12,55.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,27.5"
-                    Point2="0,31.5"
-                    Point3="4,31.5" />
-                  <mssgle:LineSegment
-                    End="8,31.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="8,31.5"
-                    Point2="12,31.5"
-                    Point3="12,35.5" />
-                  <mssgle:LineSegment
-                    End="12,55.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output8]"
-          TopLeft="1185.5,430">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,53"
-              Start="0,0"
-              End="0,45.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output18]"
-          TopLeft="1401.5,428">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,56"
-              Start="0,0"
-              End="0,48.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,48.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
