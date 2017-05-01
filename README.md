@@ -8,4 +8,4 @@ More details are availible at:
 * http://www.nature.com/articles/sdata201635
 
 
-This repository contain the SQL code and and SSIS package that can be used to load the MIMIC-III data into a SQL Server 2016 database.
+This repository contain the SQL code and an SSIS package that can be used to load the MIMIC-III data into a SQL Server 2016 database.
