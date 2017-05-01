@@ -3,13 +3,22 @@ GO
 
 
 
+IF OBJECT_ID('vwCHARTEVENTS', 'V') IS NOT NULL
+    DROP VIEW dbo.vwCHARTEVENTS;
+GO
 
-create view [dbo].[vw_CHARTEVENTS_1000Patients]
+
+CREATE VIEW [dbo].[vwCHARTEVENTS]
 as
--- This view returns data for only the first 1000 patients in the very, very large CHARTEVENTS table
+-- The CHARTEVENTS table is very large, so I created this view as an "interface" to
+-- let me code against a smaller subset of the data
 SELECT *
   FROM [MIMIC3].[dbo].[CHARTEVENTS]
-  where subject_ID <1000
+
+
+
+  -- This filter returns data for only the first 100 patients
+  where subject_ID <100
 GO
 
 
