@@ -7,12 +7,12 @@
   DTS:CreatorName="EC2AMAZ-1C3LPP0\iamcaesar"
   DTS:DTSID="{EE8CDC97-FFF2-4555-B99C-E68DAFCA66D7}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="13.0.2165.0"
+  DTS:LastModifiedProductVersion="14.0.3002.68"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="65"
-  DTS:VersionGUID="{43874EEC-98BA-4331-A13D-38985E8FD0D7}">
+  DTS:VersionBuild="69"
+  DTS:VersionGUID="{F0856ACE-7D9A-4B2A-94CD-6ECEDFE70CB0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -33,7 +33,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\ADMISSIONS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\ADMISSIONS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -216,7 +216,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\CALLOUT.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\CALLOUT.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -436,7 +436,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\CAREGIVERS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\CAREGIVERS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -492,7 +492,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\CHARTEVENTS_Error_File.txt">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\CHARTEVENTS_Error_File.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -538,7 +538,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\CHARTEVENTS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\CHARTEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -684,7 +684,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\CPTEVENTS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\CPTEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -808,7 +808,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\DATETIMEEVENTS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\DATETIMEEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -945,7 +945,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\DIAGNOSES_ICD.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\DIAGNOSES_ICD.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1008,7 +1008,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\DRGCODES.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\DRGCODES.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1097,7 +1097,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\D_CPT.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\D_CPT.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1196,7 +1196,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\D_ICD_DIAGNOSES.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\D_ICD_DIAGNOSES.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1253,7 +1253,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\D_ICD_PROCEDURES.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\D_ICD_PROCEDURES.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1310,7 +1310,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\D_ITEMS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\D_ITEMS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1420,7 +1420,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\D_LABITEMS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\D_LABITEMS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1494,7 +1494,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\ICUSTAYS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\ICUSTAYS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1615,7 +1615,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\INPUTEVENTS_CV.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\INPUTEVENTS_CV.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1820,7 +1820,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\INPUTEVENTS_MV.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\INPUTEVENTS_MV.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2100,7 +2100,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\LABEVENTS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\LABEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2197,7 +2197,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\MICROBIOLOGYEVENTS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\MICROBIOLOGYEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2367,7 +2367,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\NOTEEVENTS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\NOTEEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2479,7 +2479,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\OUTPUTEVENTS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\OUTPUTEVENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2606,7 +2606,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\PATIENTS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\PATIENTS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2693,7 +2693,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\PRESCRIPTIONS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\PRESCRIPTIONS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2880,7 +2880,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\PROCEDUREEVENTS_MV.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\PROCEDUREEVENTS_MV.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3111,7 +3111,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\PROCEDURES_ICD.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\PROCEDURES_ICD.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3174,7 +3174,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\SERVICES.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\SERVICES.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3246,7 +3246,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\TRANSFERS.csv">
+          DTS:ConnectionString="E:\MIMIC-III Clinical Database\Data\TRANSFERS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3369,7 +3369,7 @@
       DTS:ObjectName="CSV_Folder">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\MIMIC-III Clinical Database\MIMIC_CSV_Files\</DTS:Property>
+        DTS:Name="ParameterValue">E:\MIMIC-III Clinical Database\Data\</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -18027,44 +18027,44 @@
                   startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADMISSIONS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output16]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 2.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\OUTPUTEVENTS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ITEMS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output15]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 1 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\DIAGNOSES_ICD.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output14]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDURES_ICD.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output13]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 4 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PATIENTS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output12]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3 2.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\TRANSFERS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\SERVICES.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output11]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 3.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ICD_DIAGNOSES.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CALLOUT.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output10]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 2.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\DRGCODES.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ICUSTAYS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output17]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 2.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 3.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_CPT.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CAREGIVERS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output9]"
                   endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 4.Inputs[ADO NET Destination Input]"
@@ -18072,44 +18072,44 @@
                   startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ICD_PROCEDURES.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output7]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 2.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ICUSTAYS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\DRGCODES.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output6]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 3.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CALLOUT.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ICD_DIAGNOSES.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output5]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3 2.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 3.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\SERVICES.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\TRANSFERS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output4]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 4 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PATIENTS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDUREEVENTS_MV.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output3]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\PROCEDURES_ICD.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\MICROBIOLOGYEVENTS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output2]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 1 1.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\DIAGNOSES_ICD.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CPTEVENTS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output1]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 2.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 1.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_ITEMS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\OUTPUTEVENTS.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output8]"
-                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 3.Inputs[ADO NET Destination Input]"
+                  endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 2 2.Inputs[ADO NET Destination Input]"
                   name="Flat File Source Output"
-                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\CAREGIVERS.Outputs[Flat File Source Output]" />
+                  startId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\D_CPT.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output18]"
                   endId="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables\ADO NET Destination 1 3 4.Inputs[ADO NET Destination Input]"
@@ -19888,18 +19888,18 @@
           TopLeft="1008.58333333333,232.305555555556" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="974.36111111111,331.138888888889">
+          TopLeft="974.361111111111,331.138888888889">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="34.2222222222219,0"
+              EndConnector="34.2222222222189,0"
               Start="0,0"
-              End="26.7222222222219,0">
+              End="26.7222222222189,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="26.7222222222219,0" />
+                    End="26.7222222222189,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20004,7 +20004,7 @@
     design-time-name="Package\Large Tables (between 500MB and 3GB each)\Load INPUTEVENTS_CV">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="179,42"
           Id="Package\Large Tables (between 500MB and 3GB each)\Load INPUTEVENTS_CV\ADO NET Destination"
@@ -20044,9 +20044,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -20112,7 +20110,7 @@
     design-time-name="Package\Large Tables (between 500MB and 3GB each)\Load LABEVENTS">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="151,42"
           Id="Package\Large Tables (between 500MB and 3GB each)\Load LABEVENTS\Flat File Source"
@@ -20152,9 +20150,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -20397,228 +20393,6 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output17]"
-          TopLeft="490.5,250">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="16,27"
-              Start="0,0"
-              End="16,19.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,9.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,9.5"
-                    Point2="0,13.5"
-                    Point3="4,13.5" />
-                  <mssgle:LineSegment
-                    End="12,13.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="12,13.5"
-                    Point2="16,13.5"
-                    Point3="16,17.5" />
-                  <mssgle:LineSegment
-                    End="16,19.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output16]"
-          TopLeft="341.75,88">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,41"
-              Start="0,0"
-              End="0,33.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output15]"
-          TopLeft="748.5,89">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="15.5,40"
-              Start="0,0"
-              End="15.5,32.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16"
-                    Point2="0,20"
-                    Point3="4,20" />
-                  <mssgle:LineSegment
-                    End="11.5,20" />
-                  <mssgle:CubicBezierSegment
-                    Point1="11.5,20"
-                    Point2="15.5,20"
-                    Point3="15.5,24" />
-                  <mssgle:LineSegment
-                    End="15.5,32.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output14]"
-          TopLeft="548,90">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,39"
-              Start="0,0"
-              End="0,31.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output13]"
-          TopLeft="944,95">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34"
-              Start="0,0"
-              End="0,26.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output12]"
-          TopLeft="1140.25,88">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,40"
-              Start="0,0"
-              End="0,32.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output11]"
-          TopLeft="120.5,245">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,40"
-              Start="0,0"
-              End="0,32.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output10]"
-          TopLeft="315.5,247">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,31"
-              Start="0,0"
-              End="0,23.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output9]"
-          TopLeft="122,428">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,63"
-              Start="0,0"
-              End="0,55.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,55.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output8]"
           TopLeft="1185.5,430">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -20640,31 +20414,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output7]"
-          TopLeft="308.5,424">
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output16]"
+          TopLeft="954.5,427">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="20.5,64"
+              EndConnector="12,63"
               Start="0,0"
-              End="20.5,56.5">
+              End="12,55.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28" />
+                    End="0,27.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,28"
-                    Point2="0,32"
-                    Point3="4,32" />
+                    Point1="0,27.5"
+                    Point2="0,31.5"
+                    Point3="4,31.5" />
                   <mssgle:LineSegment
-                    End="16.5,32" />
+                    End="8,31.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="16.5,32"
-                    Point2="20.5,32"
-                    Point3="20.5,36" />
+                    Point1="8,31.5"
+                    Point2="12,31.5"
+                    Point3="12,35.5" />
                   <mssgle:LineSegment
-                    End="20.5,56.5" />
+                    End="12,55.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20674,31 +20448,19 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output6]"
-          TopLeft="688.5,253">
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output15]"
+          TopLeft="756.75,428">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="33.5,29"
+              EndConnector="0,61"
               Start="0,0"
-              End="33.5,21.5">
+              End="0,53.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,10.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,10.5"
-                    Point2="0,14.5"
-                    Point3="4,14.5" />
-                  <mssgle:LineSegment
-                    End="29.5,14.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="29.5,14.5"
-                    Point2="33.5,14.5"
-                    Point3="33.5,18.5" />
-                  <mssgle:LineSegment
-                    End="33.5,21.5" />
+                    End="0,53.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20708,75 +20470,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output5]"
-          TopLeft="898,255">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="25,23"
-              Start="0,0"
-              End="25,15.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,7.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,7.5"
-                    Point2="0,11.5"
-                    Point3="4,11.5" />
-                  <mssgle:LineSegment
-                    End="21,11.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="21,11.5"
-                    Point2="25,11.5"
-                    Point3="25,15.5" />
-                  <mssgle:LineSegment
-                    End="25,15.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output4]"
-          TopLeft="1119.75,250.75">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="9.25,26.25"
-              Start="0,0"
-              End="9.25,18.75">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,9.125" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,9.125"
-                    Point2="0,13.125"
-                    Point3="4,13.125" />
-                  <mssgle:LineSegment
-                    End="5.25,13.125" />
-                  <mssgle:CubicBezierSegment
-                    Point1="5.25,13.125"
-                    Point2="9.25,13.125"
-                    Point3="9.25,17.125" />
-                  <mssgle:LineSegment
-                    End="9.25,18.75" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output3]"
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output14]"
           TopLeft="536.5,429">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -20810,19 +20504,333 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output2]"
-          TopLeft="756.75,428">
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output13]"
+          TopLeft="1119.75,250.75">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,61"
+              EndConnector="9.25,26.25"
               Start="0,0"
-              End="0,53.5">
+              End="9.25,18.75">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,53.5" />
+                    End="0,9.125" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,9.125"
+                    Point2="0,13.125"
+                    Point3="4,13.125" />
+                  <mssgle:LineSegment
+                    End="5.25,13.125" />
+                  <mssgle:CubicBezierSegment
+                    Point1="5.25,13.125"
+                    Point2="9.25,13.125"
+                    Point3="9.25,17.125" />
+                  <mssgle:LineSegment
+                    End="9.25,18.75" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output12]"
+          TopLeft="898,255">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="25,23"
+              Start="0,0"
+              End="25,15.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,7.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,7.5"
+                    Point2="0,11.5"
+                    Point3="4,11.5" />
+                  <mssgle:LineSegment
+                    End="21,11.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="21,11.5"
+                    Point2="25,11.5"
+                    Point3="25,15.5" />
+                  <mssgle:LineSegment
+                    End="25,15.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output11]"
+          TopLeft="688.5,253">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="33.5,29"
+              Start="0,0"
+              End="33.5,21.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.5"
+                    Point2="0,14.5"
+                    Point3="4,14.5" />
+                  <mssgle:LineSegment
+                    End="29.5,14.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="29.5,14.5"
+                    Point2="33.5,14.5"
+                    Point3="33.5,18.5" />
+                  <mssgle:LineSegment
+                    End="33.5,21.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output10]"
+          TopLeft="308.5,424">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="20.5,64"
+              Start="0,0"
+              End="20.5,56.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28"
+                    Point2="0,32"
+                    Point3="4,32" />
+                  <mssgle:LineSegment
+                    End="16.5,32" />
+                  <mssgle:CubicBezierSegment
+                    Point1="16.5,32"
+                    Point2="20.5,32"
+                    Point3="20.5,36" />
+                  <mssgle:LineSegment
+                    End="20.5,56.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output9]"
+          TopLeft="122,428">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,63"
+              Start="0,0"
+              End="0,55.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,55.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output8]"
+          TopLeft="490.5,250">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="16,27"
+              Start="0,0"
+              End="16,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,9.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,9.5"
+                    Point2="0,13.5"
+                    Point3="4,13.5" />
+                  <mssgle:LineSegment
+                    End="12,13.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="12,13.5"
+                    Point2="16,13.5"
+                    Point3="16,17.5" />
+                  <mssgle:LineSegment
+                    End="16,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output7]"
+          TopLeft="315.5,247">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,31"
+              Start="0,0"
+              End="0,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output6]"
+          TopLeft="120.5,245">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40"
+              Start="0,0"
+              End="0,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output5]"
+          TopLeft="1140.25,88">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40"
+              Start="0,0"
+              End="0,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output4]"
+          TopLeft="944,95">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34"
+              Start="0,0"
+              End="0,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output3]"
+          TopLeft="548,90">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,39"
+              Start="0,0"
+              End="0,31.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output2]"
+          TopLeft="748.5,89">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="15.5,40"
+              Start="0,0"
+              End="15.5,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16"
+                    Point2="0,20"
+                    Point3="4,20" />
+                  <mssgle:LineSegment
+                    End="11.5,20" />
+                  <mssgle:CubicBezierSegment
+                    Point1="11.5,20"
+                    Point2="15.5,20"
+                    Point3="15.5,24" />
+                  <mssgle:LineSegment
+                    End="15.5,32.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20833,30 +20841,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Small Tables (Less than 500 MB each)\Load all 19 Small Tables.Paths[Flat File Source Output1]"
-          TopLeft="954.5,427">
+          TopLeft="341.75,88">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="12,63"
+              EndConnector="0,41"
               Start="0,0"
-              End="12,55.5">
+              End="0,33.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,27.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,27.5"
-                    Point2="0,31.5"
-                    Point3="4,31.5" />
-                  <mssgle:LineSegment
-                    End="8,31.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="8,31.5"
-                    Point2="12,31.5"
-                    Point3="12,35.5" />
-                  <mssgle:LineSegment
-                    End="12,55.5" />
+                    End="0,33.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
